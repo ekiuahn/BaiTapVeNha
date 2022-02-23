@@ -1,0 +1,1279 @@
+                        * {
+                            margin: 0px;
+                            padding: 0px;
+                            box-sizing: border-box;
+                        }
+                
+                        .body {
+                            min-width: 100px;
+                            min-height: 2000px;
+                            font-family: Arial, Helvetica, sans-serif;
+                        }
+                
+                        .top {
+                            min-height: 150px;
+                            background: #1647A3;
+                        }
+                
+                        .menu {
+                            min-height: 50px;
+                            background-color: #1647A3;
+                            margin: 0px auto;
+                            text-align: left;
+                            font-size: 20px;
+                            padding-left: 60px;
+                            font-weight: bold;
+                        }
+                
+                        .menu img {
+                            background-color:#1647A3 ;
+                            padding-top: 5px;
+                            padding-left: 3px;
+                            float: left;
+                        }
+                
+                        .menu>ul>li {
+                            display: block;
+                            list-style: none;
+                            float: left;
+                        }
+                
+                        .menu>ul>li>a {
+                            color: white;
+                            text-decoration: none;
+                            font-size: 20px;
+                            display: block;
+                            line-height: 50px;
+                            padding: 0px 15px 0px 15px;
+                        }
+                
+                        .menu>ul>li>a:hover {
+                            background: #1647A3;
+                            color: white;
+                            list-style: none;
+                        }
+                
+                        .search {
+                            float: right;
+                            width: 350px;
+                            height: 30px;
+                            margin-right: 5px;
+                        }
+                
+                        .search>form>input {
+                            min-height: 10 px;
+                            margin-top: 1px;
+                            width: 200px;
+                        }
+                
+                        .submenu {
+                            display: none;
+                        }
+                
+                        .submenu>li {
+                            display: none;
+                            margin-left: 0;
+                        }
+                
+                        .submenu>ul {
+                            min-height: 49px;
+                            width: 150px;
+                            background-color: #1647A3;
+                            margin-left: 0%;
+                        }
+                
+                        .submenu>ul>li {
+                            padding: 0;
+                            list-style: none;
+                        }
+                
+                        .submenu>ul>li>a {
+                            text-decoration: none;
+                            color: white;
+                            display: block;
+                            border-bottom: 1px solid white;
+                            line-height: 40px;
+                            text-indent: 10px;
+                        }
+                
+                        .submenu>ul>li>a:hover {
+                            background: #1647A3;
+                            color: white;
+                        }
+                
+                        .menu li:hover .submenu {
+                            display: block;
+                        }
+                
+                        .intro {
+                            background-color: whitesmoke;
+                            min-height: 30px;
+                        }
+                
+                        .intro p {
+                            font-size: 25px;
+                            line-height: 30px;
+                            color: red;
+                            font-weight: bold;
+                        }
+                
+                        .content {
+                            background-color: white;
+                            width: 100%;
+                            height: auto;
+                            display: flex;
+                            flex-direction: row;
+                        }
+                
+                        .boxleft1>ul {
+                            margin: 0px;
+                            padding: 0px;
+                            border-radius: 5px;
+                            list-style: none;
+                        }
+                
+                        .boxleft {
+                            width: 30%;
+                            justify-content: left;
+                            min-height: 1200px;
+                        }
+                
+                        .boxleft1 {
+                            border: 2px solid rgb(235, 162, 67);
+                            width: 253px;
+                        }
+                
+                        .tieude1 {
+                            min-height: 40px;
+                            background-color: #1647A3;
+                            width: 253px;
+                        }
+                
+                        .tieude1 h2 {
+                            text-align: center;
+                            color: white;
+                            line-height: 40px;
+                        }
+                
+                        .boxleft1>ul {
+                            width: 250px;
+                            padding: 0;
+                            list-style-type: none;
+                        }
+                
+                        .boxleft1>ul>li {
+                            display: block;
+                            padding-left: 10px;
+                            line-height: 40px;
+                            padding: 1px solid rgb(255, 252, 252);
+                            width: auto;
+                        }
+                
+                        .boxleft1>ul>li>a {
+                            background-color: white;
+                            display: block;
+                            line-height: 50px;
+                            font-size: 20px;
+                            border-bottom: 1px #1647A3;
+                            text-decoration: none;
+                            color: rgb(233, 119, 19);
+                            padding: 0px 15px;
+                        }
+                
+                        .boxleft1>ul>li>a:hover {
+                            font-weight: bold;
+                            color: whitesmoke;
+                            background-color: #1647A3;
+                            transition: ease 0.35s;
+                        }
+                
+                        .boxleft2 {
+                            border: 2px solid rgb(235, 162, 67);
+                            width: 253px;
+                        }
+                
+                        .boxleft2>ul {
+                            width: 250px;
+                            padding: 0;
+                            list-style-type: none;
+                        }
+                
+                        .boxleft2>ul>li {
+                            display: block;
+                            padding-left: 10px;
+                            line-height: 40px;
+                            padding: 1px solid rgb(255, 252, 252);
+                            width: auto;
+                        }
+                
+                        .boxleft2>ul>li>a {
+                            background-color: white;
+                            display: block;
+                            line-height: 50px;
+                            font-size: 20px;
+                            border-bottom: 1px #1647A3;
+                            text-decoration: none;
+                            color: rgb(233, 119, 19);
+                            padding: 0px 15px;
+                        }
+                
+                        .boxleft2>ul>li>a:hover {
+                            font-weight: bold;
+                            color: whitesmoke;
+                            background-color: #1647A3;
+                            transition: ease 0.35s;
+                        }
+                
+                        .boxleft3 {
+                            border: 2px solid rgb(235, 162, 67);
+                            width: 253px;
+                            min-height: 260px;
+                        }
+                
+                        .boxleft3>ul {
+                            width: 250px;
+                            padding: 0;
+                            list-style-type: none;
+                        }
+                
+                        .boxleft3>ul>li {
+                            display: block;
+                            padding-left: 10px;
+                            line-height: 40px;
+                            padding: 1px solid rgb(255, 252, 252);
+                            width: auto;
+                        }
+                
+                        .boxleft3>ul>li>a {
+                            background-color: white;
+                            display: block;
+                            line-height: 50px;
+                            font-size: 20px;
+                            border-bottom: 1px solid #1647A3;
+                            text-decoration: none;
+                            color: rgb(233, 119, 19);
+                            padding: 0px 15px;
+                        }
+                
+                        .boxleft .boxleft4 img {
+                            float: left;
+                            width: 253px;
+                            min-height: 200px;
+                        }
+                
+                        .tieude2 {
+                            min-height: 40px;
+                            background-color: #1647A3;
+                            width: 420px;
+                        }
+                
+                        .tieude2 h2 {
+                            text-align: center;
+                            color: white;
+                            line-height: 40px;
+                        }
+                
+                        .boxright {
+                            width: 420px;
+                            justify-content: right;
+                            min-height: 200px;
+                        }
+                
+                        .boxright1 {
+                            border: 1px solid rgb(247, 243, 8);
+                            width: 420px;
+                            background-color: white;
+                            min-height: 200px;
+                        }
+                
+                        .boxright .boxright1 img {
+                            width: 418px;
+                            min-height: 200px;
+                        }
+                
+                        .boxright .boxright1 :hover {
+                            box-shadow: 0px 0px 20px yellow;
+                            border: 5px solid yellow;
+                        }
+                
+                        .boxcenter {
+                            justify-content: center;
+                            width: 100%;
+                            height: auto;
+                            padding: 0px;
+                        }
+                
+                        .tieude3 {
+                            min-height: 40px;
+                            background-color: #1647A3;
+                            width: 850px;
+                            margin-right: 5px;
+                            margin-left: 5px;
+                        }
+                
+                        .tieude3 h2 {
+                            text-align: center;
+                            color: white;
+                            line-height: 40px;
+                        }
+                
+                        .a1 {
+                            min-height: 300px;
+                            margin: 10px;
+                            border-radius: 20px;
+                            background-color: white;
+                            box-shadow: 0px 0px 5px rgb(224, 11, 224);
+                            padding-right: 5px;
+                            padding-left: 5px;
+                            width: 840px;
+                            float: left;
+                        }
+                
+                        .a1:hover {
+                            box-shadow: 0px 0px 20px rgb(238, 104, 55);
+                        }
+                
+                        .a1 img {
+                            text-align: left;
+                            width: 300px;
+                            padding: 5px;
+                            min-height: 180px;
+                            margin-left: 20px;
+                        }
+                
+                        .a1>a {
+                            text-align: right;
+                            text-decoration: none;
+                            color: black;
+                            padding: 10px;
+                            font-weight: bold;
+                            font-size: 20px;
+                        }
+                
+                        .a1>a:hover {
+                            text-decoration: underline;
+                            color: #1647A3;
+                        }
+                
+                        .a1>ul {
+                            width: 100%;
+                        }
+                
+                        .a1>ul>li {
+                            margin-left: 30px;
+                        }
+                
+                        .a1>ul>li>a {
+                            text-decoration: none;
+                            font-size: 15px;
+                            color: black;
+                            padding-left: 15px;
+                            line-height: 30px;
+                        }
+                
+                        .a1>ul>li>a:hover {
+                            text-decoration: underline;
+                            color: #1647A3;
+                        }
+                
+                        .footer img {
+                            width: 150px;
+                            min-height: 200px;
+                        }
+                
+                        .footer {
+                            border-top: 2px solid green;
+                            line-height: 40px;
+                            clear: both;
+                            color: #fff;
+                            padding-left: 260px;
+                            background-color: #1647A3;
+                        }
+
+
+
+/* gioithieu */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.body {
+    min-width: 100px;
+    min-height: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.top {
+    min-height: 150px;
+    background: #1647A3;
+}
+
+.menu {
+    min-height: 50px;
+    background-color: #1647A3;
+    margin: 0px auto;
+    text-align: left;
+    font-size: 20px;
+    padding-left: 60px;
+    font-weight: bold;
+}
+
+.menu img {
+    background-color: #1647A3;
+    padding-top: 5px;
+    padding-left: 3px;
+    float: left;
+}
+
+.menu>ul>li {
+    display: block;
+    list-style: none;
+    float: left;
+}
+
+.menu>ul>li>a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
+    line-height: 50px;
+    padding: 0px 15px 0px 15px;
+}
+
+.menu>ul>li>a:hover {
+    background: #1647A3;
+    color: white;
+    list-style: none;
+}
+
+.search {
+    float: right;
+    width: 350px;
+    height: 30px;
+    margin-right: 5px;
+}
+
+.search>form>input {
+    min-height: 20 px;
+    margin-top: 1px;
+    width: 200px;
+}
+
+.submenu {
+    display: none;
+}
+
+.submenu>li {
+    display: none;
+    margin-left: 0;
+}
+
+.submenu>ul {
+    min-height: 49px;
+    width: 150px;
+    background-color: #1647A3;
+    margin-left: 0%;
+}
+
+.submenu>ul>li {
+    padding: 0;
+    list-style: none;
+}
+
+.submenu>ul>li>a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    border-bottom: 1px solid white;
+    line-height: 40px;
+    text-indent: 10px;
+}
+
+.submenu>ul>li>a:hover {
+    background: #1647A3;
+    color: white;
+}
+
+.menu li:hover .submenu {
+    display: block;
+}
+
+.intro {
+    background-color: whitesmoke;
+    min-height: 30px;
+}
+
+.intro p {
+    font-size: 25px;
+    line-height: 30px;
+    color: red;
+    font-weight: bold;
+}
+
+.a1 {
+    min-height: 280px;
+    margin: 10px;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 5px rgb(224, 11, 224);
+    padding-right: 5px;
+    padding-left: 5px;
+    width: 98%;
+    justify-content: center;
+}
+
+.a1:hover {
+    box-shadow: 0px 0px 20px rgb(238, 104, 55);
+}
+
+.a1 img {
+    text-align: left;
+    width: 200px;
+    padding: 5px;
+    min-height: 100px;
+    margin-left: 20px;
+}
+
+.a1>a {
+    text-align: right;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.a1>a:hover {
+    text-decoration: underline;
+    color: #1647A3;
+}
+
+.a2 {
+    min-height: 220px;
+    margin: 10px;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 5px rgb(224, 11, 224);
+    padding-right: 5px;
+    padding-left: 5px;
+    width: 98%;
+    justify-content: center;
+}
+
+.a2:hover {
+    box-shadow: 0px 0px 20px rgb(238, 104, 55);
+}
+
+.a2 img {
+    text-align: left;
+    width: 220px;
+    padding: 5px;
+    min-height: 170px;
+    margin-left: 20px;
+}
+
+.a2>a {
+    text-align: right;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.a2>a:hover {
+    text-decoration: underline;
+    color: #1647A3;
+}
+
+.a3 {
+    min-height: 220px;
+    margin: 10px;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 5px rgb(224, 11, 224);
+    padding-right: 5px;
+    padding-left: 5px;
+    width: 98%;
+    justify-content: center;
+}
+
+.a3:hover {
+    box-shadow: 0px 0px 20px rgb(238, 104, 55);
+}
+
+.a3 img {
+    text-align: left;
+    width: 220px;
+    padding: 5px;
+    min-height: 170px;
+    margin-left: 20px;
+}
+
+.a3>a {
+    text-align: right;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.a3>a:hover {
+    text-decoration: underline;
+    color: #1647A3;
+}
+
+.a4 {
+    min-height: 220px;
+    margin: 10px;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 5px rgb(224, 11, 224);
+    padding-right: 5px;
+    padding-left: 5px;
+    width: 98%;
+    justify-content: center;
+}
+
+.a4:hover {
+    box-shadow: 0px 0px 20px rgb(238, 104, 55);
+}
+
+.a4 img {
+    text-align: left;
+    width: 220px;
+    padding: 5px;
+    min-height: 170px;
+    margin-left: 20px;
+}
+
+.a4>a {
+    text-align: right;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.a4>a:hover {
+    text-decoration: underline;
+    color: #1647A3;
+}
+
+.footer {
+    border-top: 2px solid green;
+    line-height: 40px;
+    clear: both;
+    color: #fff;
+    padding-left: 260px;
+    background-color: #1647A3;
+}
+
+/* gopy */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.body {
+    min-width: 100px;
+    min-height: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.top {
+    min-height: 150px;
+    background: #1647A3;
+}
+
+.menu {
+    min-height: 50px;
+    background-color: #1647A3;
+    margin: 0px auto;
+    text-align: left;
+    font-size: 20px;
+    padding-left: 60px;
+    font-weight: bold;
+}
+
+.menu img {
+    background-color: #1647A3;
+    padding-top: 5px;
+    padding-left: 3px;
+    float: left;
+}
+
+.menu>ul>li {
+    display: block;
+    list-style: none;
+    float: left;
+}
+
+.menu>ul>li>a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
+    line-height: 50px;
+    padding: 0px 15px 0px 15px;
+}
+
+.menu>ul>li>a:hover {
+    background: #1647A3;
+    color: white;
+    list-style: none;
+}
+
+.search {
+    float: right;
+    width: 350px;
+    height: 30px;
+    margin-right: 5px;
+}
+
+.search>form>input {
+    min-height: 10 px;
+    margin-top: 1px;
+    width: 200px;
+}
+
+.submenu {
+    display: none;
+}
+
+.submenu>li {
+    display: none;
+    margin-left: 0;
+}
+
+.submenu>ul {
+    min-height: 49px;
+    width: 150px;
+    background-color: #1647A3;
+    margin-left: 0%;
+}
+
+.submenu>ul>li {
+    padding: 0;
+    list-style: none;
+}
+
+.submenu>ul>li>a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    border-bottom: 1px solid white;
+    line-height: 40px;
+    text-indent: 10px;
+}
+
+.submenu>ul>li>a:hover {
+    background: #1647A3;
+    color: white;
+}
+
+.menu li:hover .submenu {
+    display: block;
+}
+
+.intro {
+    background-color: whitesmoke;
+    min-height: 30px;
+}
+
+.intro p {
+    font-size: 25px;
+    line-height: 30px;
+    color: red;
+    font-weight: bold;
+}
+
+.content>h2 {
+    text-align: center;
+    font-weight: bold;
+    color: coral;
+}
+
+.email>form {
+    text-align: center;
+}
+
+.sdt>form {
+    text-align: center;
+}
+
+.gopy>form {
+    text-align: center;
+}
+
+.footer {
+    border-top: 2px solid green;
+    line-height: 40px;
+    clear: both;
+    color: #fff;
+    padding-left: 260px;
+    background-color: #1647A3;
+}
+
+/* Hoi dap */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.body {
+    min-width: 100px;
+    min-height: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.top {
+    min-height: 150px;
+    background: #1647A3;
+}
+
+.menu {
+    min-height: 50px;
+    background-color: #1647A3;
+    margin: 0px auto;
+    text-align: left;
+    font-size: 20px;
+    padding-left: 60px;
+    font-weight: bold;
+}
+
+.menu img {
+    background-color: #1647A3;
+    padding-top: 5px;
+    padding-left: 3px;
+    float: left;
+}
+
+.menu>ul>li {
+    display: block;
+    list-style: none;
+    float: left;
+}
+
+.menu>ul>li>a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
+    line-height: 50px;
+    padding: 0px 15px 0px 15px;
+}
+
+.menu>ul>li>a:hover {
+    background: #1647A3;
+    color: white;
+    list-style: none;
+}
+
+.search {
+    float: right;
+    width: 350px;
+    height: 30px;
+    margin-right: 5px;
+}
+
+.search>form>input {
+    min-height: 10 px;
+    margin-top: 1px;
+    width: 200px;
+}
+
+.submenu {
+    display: none;
+}
+
+.submenu>li {
+    display: none;
+    margin-left: 0;
+}
+
+.submenu>ul {
+    min-height: 49px;
+    width: 150px;
+    background-color: #1647A3;
+    margin-left: 0%;
+}
+
+.submenu>ul>li {
+    padding: 0;
+    list-style: none;
+}
+
+.submenu>ul>li>a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    border-bottom: 1px solid white;
+    line-height: 40px;
+    text-indent: 10px;
+}
+
+.submenu>ul>li>a:hover {
+    background: #1647A3;
+    color: white;
+}
+
+.menu li:hover .submenu {
+    display: block;
+}
+
+.intro {
+    background-color: whitesmoke;
+    min-height: 30px;
+}
+
+.intro p {
+    font-size: 25px;
+    line-height: 30px;
+    color: red;
+    font-weight: bold;
+}
+
+.hoi>h2 {
+    text-align: center;
+    color: #1647A3;
+}
+
+.hoi {
+    text-align: center;
+}
+
+.traloi {
+    text-align: center;
+}
+
+.cauhoi>h2 {
+    text-align: center;
+    color: #1647A3;
+    text-decoration: none;
+}
+
+.cauhoi>h2:hover {
+    text-decoration: underline;
+    color: #1647A3;
+}
+
+.cauhoi>ul>li {
+    line-height: 40px;
+    text-align: center;
+}
+
+.cauhoi>ul>li>a {
+    text-decoration: none;
+    color: blue;
+}
+
+.cauhoi>ul>li>a:hover {
+    text-decoration: underline;
+    color: #1647A3;
+}
+.footer {
+    border-top: 2px solid green;
+    line-height: 40px;
+    clear: both;
+    color: #fff;
+    padding-left: 260px;
+    background-color: #1647A3;
+}
+/* lien he */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.body {
+    min-width: 100px;
+    min-height: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.top {
+    min-height: 150px;
+    background: #1647A3;
+}
+
+.menu {
+    min-height: 50px;
+    background-color: #1647A3;
+    margin: 0px auto;
+    text-align: left;
+    font-size: 20px;
+    padding-left: 60px;
+    font-weight: bold;
+}
+
+.menu img {
+    background-color: #1647A3;
+    padding-top: 5px;
+    padding-left: 3px;
+    float: left;
+}
+
+.menu>ul>li {
+    display: block;
+    list-style: none;
+    float: left;
+}
+
+.menu>ul>li>a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
+    line-height: 50px;
+    padding: 0px 15px 0px 15px;
+}
+
+.menu>ul>li>a:hover {
+    background: #1647A3;
+    color: white;
+    list-style: none;
+}
+
+.search {
+    float: right;
+    width: 350px;
+    height: 30px;
+    margin-right: 5px;
+}
+
+.search>form>input {
+    min-height: 10 px;
+    margin-top: 1px;
+    width: 200px;
+}
+
+.submenu {
+    display: none;
+}
+
+.submenu>li {
+    display: none;
+    margin-left: 0;
+}
+
+.submenu>ul {
+    min-height: 49px;
+    width: 150px;
+    background-color: #1647A3;
+    margin-left: 0%;
+}
+
+.submenu>ul>li {
+    padding: 0;
+    list-style: none;
+}
+
+.submenu>ul>li>a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    border-bottom: 1px solid white;
+    line-height: 40px;
+    text-indent: 10px;
+}
+
+.submenu>ul>li>a:hover {
+    background: #1647A3;
+    color: white;
+}
+
+.menu li:hover .submenu {
+    display: block;
+}
+
+.intro {
+    background-color: whitesmoke;
+    min-height: 30px;
+}
+
+.intro p {
+    font-size: 25px;
+    line-height: 30px;
+    color: red;
+    font-weight: bold;
+}
+.footer {
+    border-top: 2px solid green;
+    line-height: 40px;
+    clear: both;
+    color: #fff;
+    padding-left: 260px;
+    background-color: #1647A3;
+}
+
+/* gop y */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.body {
+    min-width: 100px;
+    min-height: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.top {
+    min-height: 150px;
+    background: #1647A3;
+}
+
+.menu {
+    min-height: 50px;
+    background-color: #1647A3;
+    margin: 0px auto;
+    text-align: left;
+    font-size: 20px;
+    padding-left: 60px;
+    font-weight: bold;
+}
+
+.menu img {
+    background-color: #1647A3;
+    padding-top: 5px;
+    padding-left: 3px;
+    float: left;
+}
+
+.menu>ul>li {
+    display: block;
+    list-style: none;
+    float: left;
+}
+
+.menu>ul>li>a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
+    line-height: 50px;
+    padding: 0px 15px 0px 15px;
+}
+
+.menu>ul>li>a:hover {
+    background: #1647A3;
+    color: white;
+    list-style: none;
+}
+
+.search {
+    float: right;
+    width: 350px;
+    height: 30px;
+    margin-right: 5px;
+}
+
+.search>form>input {
+    min-height: 10 px;
+    margin-top: 1px;
+    width: 200px;
+}
+
+.submenu {
+    display: none;
+}
+
+.submenu>li {
+    display: none;
+    margin-left: 0;
+}
+
+.submenu>ul {
+    min-height: 49px;
+    width: 150px;
+    background-color: #1647A3;
+    margin-left: 0%;
+}
+
+.submenu>ul>li {
+    padding: 0;
+    list-style: none;
+}
+
+.submenu>ul>li>a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    border-bottom: 1px solid white;
+    line-height: 40px;
+    text-indent: 10px;
+}
+
+.submenu>ul>li>a:hover {
+    background: #1647A3;
+    color: white;
+}
+
+.menu li:hover .submenu {
+    display: block;
+}
+
+.intro {
+    background-color: whitesmoke;
+    min-height: 30px;
+}
+
+.intro p {
+    font-size: 25px;
+    line-height: 30px;
+    color: red;
+    font-weight: bold;
+}
+
+.content>h2 {
+    text-align: center;
+    font-weight: bold;
+    color: coral;
+}
+
+.email>form {
+    text-align: center;
+}
+
+.sdt>form {
+    text-align: center;
+}
+
+.gopy>form {
+    text-align: center;
+}
+
+.footer {
+    border-top: 2px solid green;
+    line-height: 40px;
+    clear: both;
+    color: #fff;
+    padding-left: 260px;
+    background-color: #1647A3;
+}
+.input {
+    margin: 20px;
+}
+
+.text {
+    color: #1647A3;
+    text-align: center;
+}
+.footer {
+    border-top: 2px solid green;
+    line-height: 40px;
+    clear: both;
+    color: #fff;
+    padding-left: 260px;
+    background-color: #1647A3;
+}
